@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Full Stack Todo-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Manage your tasks with ease using the Full Stack Todo-App, a web application that offers CRUD (Create, Read, Update, Delete) functionality for your to-do items.
 
-## Available Scripts
 
-In the project directory, you can run:
+![Screenshot 2023-11-04 100440](https://github.com/SamdCoder1/MERN-Stack-ToDo-App--frontend/assets/114919791/647b36bf-033d-4834-b6e2-852a9c5ee5db)
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:**
+  - HTML
+  - CSS
+  - JavaScript
+  - React
+  - React Hooks (useState, useEffect)
+  - React-icons for styling and icons
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Backend:**
+  - MongoDB as the database
+  - Express and Node.js for server development
+  - Axios for handling API requests
+  - CORS for cross-origin resource sharing
+  - Dotenv for environment variables
 
-### `npm test`
+## Backend Server
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The backend server for this project is hosted on [Render.com](https://render.com/), providing a reliable and scalable infrastructure to support your Todo-App.
 
-### `npm run build`
+## Database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Data is stored in a MongoDB Atlas database cluster, ensuring data persistence and availability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Testing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project's request and response methods have been rigorously tested using Postman, ensuring the reliability and functionality of the API.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Provide instructions on how to run your Todo-App locally. Include details on how to set up the frontend and connect it to the backend.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Create, Read, Update, and Delete tasks
+- User-friendly interface
+- Seamless interaction with the API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment
 
-## Learn More
+- Frontend: Hosted on [Netlify](https://github.com/SamdCoder1/MERN-Stack-ToDo-App--frontend.git)
+- Backend: Hosted on Render.com and Resources are available on [Github](https://github.com/SamdCoder1/MERN-Stack-ToDo-App--backend.git)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact Information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For any questions or feedback, please contact [Saumalya Das](mailto:saumalyadasstudy@gmail.com).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
